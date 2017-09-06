@@ -47,11 +47,13 @@
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       </p>
       <form id="form" method="post" action="/">
-        <input type="text" name="first-name" placeholder="First name"/>
-        <input type="text" name="last-name" placeholder="Last name"/>
-        <input type="email" required name="email" placeholder="E-mail"/>
-        <textarea name="comment" required rows="10" cols="30" placeholder="Write your comment here"></textarea>
-        <input type="submit" name="contact-submit" value="Send"/>
+        <label for="full-name">Full name</label>
+        <input type="text" name="full-name" id="full-name" />
+        <label for="email">E-mail</label>
+        <input type="email" required name="email" id="email" />
+        <label for="comment">Comment</label>
+        <textarea name="comment" required rows="10" cols="30" id="comment"></textarea>
+        <input type="submit" name="form-submit" id="form-submit" value="Send" />
       </form>
     </section>
   </main>
